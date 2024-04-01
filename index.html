@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+        crossorigin="anonymous">
+    <!-- Acessa a classe de CSS (Bootstrap)-->
+
+    <link rel="stylesheet" href="assets/css/styles.css"> 
+    <!-- Arquivo .css pra eu sobscrever coisas -->
+
+    <link rel="icon" href="assets/img/computer-icon.png">
+    <!-- Adicionando um ícone na aba do navegador -->
+</head>
+<!-- https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/78d710fca23503cd614f0d120fa906701078e8abc43abb87567ebf9ca2948587_1.jpg -->
+<body style="background-color: black">
+
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-danger bgO">
+    <a class="navbar-brand" href="index.html"><img src="assets/img/main-computer.png" 
+     alt="ìcone Dragonite" width="60px" margin="0px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+      <!-- Esconde o botão e muda o ícone -->
+    </button>
+
+    <!-- Configuração de responsividade para mobile/se o site diminuir -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item fontBold">
+          <a class="nav-link navHD header-content" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/"
+          target="_blank" style="margin-top: 20px">
+            Site do Bootstrap
+          </a>
+        </li>
+        <span class="header-team-name">Time Desenvolvimento de Sistemas</span>
+        <li class="nav-item fontBold">
+          <a class="nav-link navHD header-content" href="contato.html" style="margin-top: 20px">
+            Contatos
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- Menu -->
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/img/lake.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="main-carousel-title">Seja bem vindo!</h5>
+                <p class="main-carousel-text">Ao Mundo do Desenvolvimento de Sistemas</p>
+            </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/homem-na-lousa.webp" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 class="main-carousel-title">História</h5>
+            <p class="main-carousel-text">Aprenda sobre a fantástica jornada do Desenvolvimento de Sistemas</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- Carousel -->
+
+<div class="container-fluid" style="background-color: black">
+  <div class="row">
+    <div class="col-6">
+      <img src="assets/img/analise-e-desenvolvimento-de-sistemas-o-que-faz-2.jpg" alt="Dragonite Carteiro"
+      style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+    </div>
+    <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+      <div class="container">
+        <div style="font-size: 16.5px" class="divCenter">
+          <h2 style="text-align:center; color: white;">Bem-vindo ao Mundo do Desenvolvimento de Sistemas</h2>
+       <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+        No cenário digital em constante evolução, o desenvolvimento de sistemas é a espinha dorsal que impulsiona a inovação, a eficiência e a conectividade. Seja você um aspirante a desenvolvedor, uma empresa buscando soluções tecnológicas sob medida ou 
+        simplesmente alguém fascinado pelo poder transformador da tecnologia, você está no lugar certo.
+       </p>  <!-- Texto -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="nav history-box"> 
+    <h2 style="color: rgb(14, 2, 2); margin-top: 15px;">
+        História do Desenvolvimento de Sistemas
+    </h2>
+</nav>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Década de 1940: As Origens</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+            O desenvolvimento de sistemas modernos remonta à década de 1940, quando os primeiros computadores eletrônicos foram construídos. 
+            Máquinas como o ENIAC (Electronic Numerical Integrator and Computer), desenvolvido durante a Segunda Guerra Mundial, foram os pioneiros dessa era.
+         </p>  <!-- Texto -->
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="assets/img/origem.webp" alt="Dragonite Carteiro"
+        style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/img/assembly.webp" alt="Dragonite Carteiro"
+            style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+          </div>
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Décadas de 1950 e 1960: Programação em Assembly e Linguagens de Alto Nível</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+            Durante as décadas de 1950 e 1960, os programadores trabalhavam principalmente em linguagem de máquina e assembly, que eram complexas e de baixo nível.
+             As linguagens de alto nível, como o Fortran (1957) e o COBOL (1959), foram desenvolvidas para facilitar a programação e aumentar a portabilidade dos sistemas.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Décadas de 1960 e 1970: Surgimento dos Sistemas Operacionais</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                Com o crescimento da complexidade dos sistemas, os sistemas operacionais começaram a surgir. 
+                O Unix, desenvolvido nos laboratórios Bell da AT&T na década de 1960, foi um marco importante. 
+                Ele introduziu conceitos como multitarefa, multiusuário e arquivos hierárquicos.
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="assets/img/surgimento.webp" alt="Dragonite Carteiro"
+        style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+    </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/img/banco-de-dados.jpg" alt="Dragonite Carteiro"
+            style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+        </div>
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Década de 1970: Desenvolvimento de Bancos de Dados Relacionais</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                Na década de 1970, o desenvolvimento de bancos de dados relacionais trouxe uma nova abordagem para armazenar e recuperar dados de forma estruturada. 
+                O SQL (Structured Query Language) foi padronizado em 1974 pela IBM, 
+                tornando-se a linguagem padrão para interagir com bancos de dados relacionais.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Década de 1980: Boom da Computação Pessoal e Sistemas Client-Server</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                Os anos 1980 viram o surgimento da computação pessoal e o boom dos computadores domésticos. 
+                Além disso, os sistemas client-server começaram a se tornar populares, com a separação de funções entre servidores que fornecem serviços e clientes que os consomem.
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="assets/img/pc-e-client-server.jpg" alt="Dragonite Carteiro"
+        style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/img/sistemas-distribuidos.webp" alt="Dragonite Carteiro"
+            style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+        </div>
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Décadas de 1990 e 2000: Internet, Web e Sistemas Distribuídos</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                O final do século XX e o início do século XXI foram marcados pela proliferação da internet e do desenvolvimento de sistemas distribuídos. 
+                A World Wide Web foi criada por Tim Berners-Lee em 1990, levando à explosão de aplicativos web e sistemas de comércio eletrônico.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Décadas de 2010 e 2020: A Era da Nuvem e da Mobilidade</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                Nas últimas décadas, vimos a ascensão da computação em nuvem, que revolucionou a forma como os sistemas são desenvolvidos, implantados e escalados. 
+                A mobilidade também se tornou um fator dominante, com o desenvolvimento de aplicativos móveis e a necessidade de sistemas que funcionem em diferentes dispositivos.
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="assets/img/computacao-em-nuvem.png" alt="Dragonite Carteiro"
+        style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+      </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: black">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/img/iot ai 01.jpg" alt="Dragonite Carteiro"
+            style="width: 100%; height: 400px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
+        </div>
+      <div class="col-6" style="display: flex; align-items: center; margin-top: 15px; padding-bottom: 15px; background-color: black">
+        <div class="container">
+          <div style="font-size: 16.5px" class="divCenter">
+            <h2 style="text-align:center; color: white;">Atualmente: Inteligência Artificial e Internet das Coisas (IoT)</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:white;">
+                Hoje, estamos imersos em uma era de rápida evolução, com avanços significativos em inteligência artificial, machine learning e internet das coisas. 
+                Essas tecnologias estão transformando a maneira como os sistemas são concebidos, com sistemas cada vez mais autônomos, adaptáveis e conectados.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer style="font-family:'Courier New', Courier, monospace; background-color:white">
+  <nav class="nav"> <!-- Menuzinho -->
+      <h2 style="color: black; margin-top: 15px;">
+          Página feita por time Desenvolvimento de Sistemas FatecSCS™</h2>
+      <div style="margin-left: 10px">
+          <a href = "https://github.com/RafaelBalbino" target="_blank">
+              <img height="60px" width="170px" src="assets/img/github logo.png">
+          </a>
+      </div>
+  </nav>
+</footer>
+<!-- Footer -->
+
+<!-- Javascript utilizado pelo Bootstrap e seus links 'npm'-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous">
+    </script>
+<!-- Javascript utilizado pelo Bootstrap e seus links 'npm'-->
+
+</body>
+</html>
